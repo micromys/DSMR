@@ -10,10 +10,10 @@ The DSMR project intends to assist users to retrieve data from a DSMR (Dutch Sma
 
 The process-flow is :
 
-a. Setup access to p1 using the port on the Smartmeter
-b. Reading the serialport
-c. Store the data in a MySQL database
-d. run a stored procedure to extract the relevant data
-e. Make the data available in Excel, your browsers, etc
+1. Setup access to p1 using the port on the Smartmeter
+2. Reading the serialport
+3. Store the data in a MySQL database
+4. run a stored procedure to extract the relevant data
+5. Make the data available in Excel, your browsers, etc
 
 
