@@ -28,7 +28,7 @@ Requirements (under construction)
 3. (n/a) Serial Cable, see serialcable.pdf  
 4. (n/a) Python program to read com/serial-port
 5. (n/a) User Interface to visualize Energy Consumption
-6. DSMR-data generator to simulate DSMR P1 port behaviour, see dsmr_simulator.py (python needed)
+6. DSMR-simulator (v 0.1) to generate DSMR P1 port data every 10 seconds, see dsmr_simulator.py (python needed)
 
 n/a : not available yet, work in progress
 
