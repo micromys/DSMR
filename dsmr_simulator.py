@@ -58,27 +58,27 @@ while x==True:
 
 	try:
 		print datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "Writing batch"
-		com.writelines('/ISk5\2ME382-1004\n')			# meter indicatie/type				
+		com.writelines('/ISk5\2ME382-1004\n')			# meter identification/type				
 		com.writelines('\n')
 		com.writelines('0-0:96.1.1(4B414C37303035313338323936303133)\n')	
-		com.writelines('1-0:1.8.1(00128.981*kWh)\n')		# meterstand laag
-		com.writelines('1-0:1.8.2(00049.851*kWh)\n')		# meterstand hoog
-		com.writelines('1-0:2.8.1(00018.127*kWh)\n')		# teruglevering laag
-		com.writelines('1-0:2.8.2(00018.038*kWh)\n')		# teruglevering hoog	
+		com.writelines('1-0:1.8.1(00128.981*kWh)\n')		# total electricity condumption low
+		com.writelines('1-0:1.8.2(00049.851*kWh)\n')		# total electricity consumption high
+		com.writelines('1-0:2.8.1(00018.127*kWh)\n')		# total electricity delivered low
+		com.writelines('1-0:2.8.2(00018.038*kWh)\n')		# total electricity delivered high
 		#com.writelines('0-0:96.14.0(0001)\n')
-                com.writelines('0-0:96.14.0(000'+str(v[h][1])+')\n')	# tariefstand 0=hoog, 1=laag
-		com.writelines('1-0:1.7.0('+f+'*kW)\n')			# verbruik actueel
+                com.writelines('0-0:96.14.0(000'+str(v[h][1])+')\n')	# tariff 0=high, 1=low
+		com.writelines('1-0:1.7.0('+f+'*kW)\n')			# current electricity consumption
                 #com.writelines('1-0:1.7.0(0000.81*kW)\n')		
-		com.writelines('1-0:2.7.0(0000.00*kW)\n')		# levering actueel
+		com.writelines('1-0:2.7.0(0000.00*kW)\n')		# current electricity delivery
 		com.writelines('0-0:17.0.0(0999.00*kW)\n')
 		com.writelines('0-0:96.3.10(1)\n')
 		com.writelines('0-0:96.13.1()\n')
 		com.writelines('0-0:96.13.0()\n')
 		com.writelines('0-1:24.1.0(3)\n')
 		com.writelines('0-1:96.1.0(3238303131303031333038323834393133)\n')
-		com.writelines('0-1:24.3.0(130505210000)(00)(60)(1)(0-1:24.2.1)(m3)\n')	# tijdstip laatste gasmeting (yymmddhhmmss)
+		com.writelines('0-1:24.3.0(130505210000)(00)(60)(1)(0-1:24.2.1)(m3)\n')	# timestamp last gas reading
 		com.writelines('(00023.536)\n')				# gasmeter m3
-		com.writelines('0-1:24.4.0(1)\n')			# stand gasklep 0=closed, 1=open	
+		com.writelines('0-1:24.4.0(1)\n')			# gas throttle 0=closed, 1=open	
 		com.writelines('!\n')
 		
 		sleep(deltasleep(10))					# now sleep up to 10 seconds (same as DSMR)
