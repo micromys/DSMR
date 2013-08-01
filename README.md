@@ -1,4 +1,4 @@
-dsmr
+DSMR
 ====
 
 Dutch Smart Meter Reading (DSMR) 
