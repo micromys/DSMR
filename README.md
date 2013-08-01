@@ -22,10 +22,14 @@ The process-flow is :
 Requirements (under construction)
 ------------
 
-1. Layout of data send by DSMR P1 port
+1. Sample Layout of data send by DSMR P1 port + "DSMR V4.0 final P1.pdf"
 2. MySql database, see DSMR.sql
 2. MySQL Stored Procedure to extract data from the rawdata send by DSMR P1 port, see DSMR.sql
-3. Serial Cable, see serialcable.pdf  
-4. Python program to read com/serial-port
-5. User Interface to visualize Energy Consumption
-6. DSMR-data generator to simulate DSMR P1 port behaviour
+3. Serial Cable, see serialcable.pdf (n/a)  
+4. Python program to read com/serial-port (n/a)
+5. User Interface to visualize Energy Consumption (n/a)
+6. DSMR-data generator to simulate DSMR P1 port behaviour (n/a)
+
+n/a : not available yet, work in progress
+
+
