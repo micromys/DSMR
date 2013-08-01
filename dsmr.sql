@@ -1,14 +1,4 @@
 /*
-Navicat MySQL Data Transfer
-
-Source Server         : rpi-lab
-Source Server Version : 50531
-Source Host           : 10.0.1.201:3306
-Source Database       : dsmr
-
-Target Server Type    : MYSQL
-Target Server Version : 50531
-File Encoding         : 65001
 
 Date: 2013-08-01 14:10:46
 */
