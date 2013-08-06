@@ -66,7 +66,7 @@ while x==True:
 		com.writelines('1-0:2.8.1(00018.127*kWh)\n')		# total electricity delivered low
 		com.writelines('1-0:2.8.2(00018.038*kWh)\n')		# total electricity delivered high
 		#com.writelines('0-0:96.14.0(0001)\n')
-                com.writelines('0-0:96.14.0(000'+str(v[h][1])+')\n')	# tariff 0=high, 1=low
+                com.writelines('0-0:96.14.0(000'+t+')\n')	# tariff 0=high, 1=low
 		com.writelines('1-0:1.7.0('+f+'*kW)\n')			# current electricity consumption
                 #com.writelines('1-0:1.7.0(0000.81*kW)\n')		
 		com.writelines('1-0:2.7.0(0000.00*kW)\n')		# current electricity delivery
