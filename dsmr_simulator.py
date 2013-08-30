@@ -58,7 +58,7 @@ while x==True:
 
 	try:
 		print datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "Writing batch"
-		com.writelines('/ISk5\2ME382-1004\n')			# meter identification/type				
+		com.writelines('/ISk5\999999-1004\n')			# meter identification/type				
 		com.writelines('\n')
 		com.writelines('0-0:96.1.1(4B414C37303035313338323936303133)\n')	
 		com.writelines('1-0:1.8.1(00128.981*kWh)\n')		# total electricity consumption low
