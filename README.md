@@ -3,8 +3,6 @@ DSMR
 
 Dutch Smart Meter Reading (DSMR) Project. 
 
-This projects will evoluate during the next months.  
-
 Release 0.1
 -----------
 
@@ -30,6 +28,6 @@ Requirements (under construction)
 5. (n/a) User Interface to visualize Energy Consumption
 6. DSMR-simulator (v 0.1) to generate DSMR P1 port data every 10 seconds, see dsmr_simulator.py (python needed)
 
-n/a : not available yet, work in progress
+n/a : not available yet
 
 
